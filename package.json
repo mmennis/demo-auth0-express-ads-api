@@ -4,7 +4,7 @@
   "description": "Work through the auth0 tutorial for express ads",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w --timeout 1000"
+    "test": "mocha -w --timeout 1000 test/**/*.js"
   },
   "repository": {
     "type": "git",
