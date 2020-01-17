@@ -7,9 +7,6 @@ let should = chai.should();
 let database = null;
 
 describe('MongoDB Ads database', () => {
-    // beforeEach(() => {
-    //     database = await startDatabase();
-    // })
 
     it("should insert an ad into the database", () => {
         startDatabase().then(async () => {
