@@ -4,7 +4,9 @@
   "description": "Work through the auth0 tutorial for express ads",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w --timeout 1000 test/**/*.js"
+    "build": "docker-compose -f docker/Dockerfile build",
+    "test": "docker-compose -f docker/Dockerfile up --build --about-on-container-exit",
+    "devtest": "mocha --timeout 1000 -w test/**/*.js"
   },
   "repository": {
     "type": "git",
