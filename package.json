@@ -1,0 +1,34 @@
+{
+  "name": "demo-auth0-express-ads-api",
+  "version": "1.0.0",
+  "description": "Work through the auth0 tutorial for express ads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmennis/demo-auth0-express-ads-api.git"
+  },
+  "keywords": [
+    "auth0",
+    "express",
+    "rest",
+    "nodejs",
+    "token"
+  ],
+  "author": "mmennis@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmennis/demo-auth0-express-ads-api/issues"
+  },
+  "homepage": "https://github.com/mmennis/demo-auth0-express-ads-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1"
+  }
+}
