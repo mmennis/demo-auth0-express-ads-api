@@ -4,8 +4,8 @@
   "description": "Work through the auth0 tutorial for express ads",
   "main": "index.js",
   "scripts": {
-    "build": "docker-compose -f docker/Dockerfile build",
-    "test": "docker-compose -f docker/Dockerfile up --build --about-on-container-exit",
+    "build": "docker-compose -f docker/docker-compose.yml build",
+    "test": "docker-compose -f docker/docker-compose.yml up --build --abort-on-container-exit",
     "devtest": "mocha --timeout 1000 -w test/**/*.js"
   },
   "repository": {

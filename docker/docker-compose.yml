@@ -3,6 +3,6 @@ services:
   backend-test:
     build:
       context: ../
-      dockerfile: docker/Dockerfile
+      dockerfile: ./docker/Dockerfile
       args:
         port: ${PORT}
